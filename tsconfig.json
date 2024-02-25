@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "outDir": "dist",               // Output directory for compiled JavaScript files
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts"                  // Include TypeScript files from the src directory
+  ],
+  "exclude": [
+    "node_modules"                 // Exclude node_modules directory
+  ]
+}
